@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+.flex-container {
+    box-sizing: border-box;
+    width: 90vw;
+    display: flex;
+    flex-direction: flex-column;
+    justify-content: center;
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
+}
