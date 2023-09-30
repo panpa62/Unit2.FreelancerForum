@@ -24,8 +24,10 @@ function render() {
 
 const addFreelancerNameIntervalId = setInterval(addFreelancerName, 5000);
 function addFreelancerName (){
-    
-   freelancers.push({name: "Dr.Slice", occupation: "gardener", price: 25})
+  const freeName = freelancers.filter((freelancer) => {return freelancer.name})
+  const freeOccu = freelancers.filter((freelancer) => {return freelancer.occupation})
+  const freePrice = freelancers.filter((freelancer) => {return freelancer.price})
+   freelancers.push[{freeName, freeOccu, freePrice}];
    console.log("freelancers: " + freelancers)
     render();
   
